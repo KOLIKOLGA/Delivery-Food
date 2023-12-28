@@ -15,10 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <script>
-      console.log("hello world");
-    </script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./scripts/index.js" defer></script>
     <title>Delivery Food</title>
   </head>
   <body>
@@ -35,7 +33,7 @@
                 <img src="./images/icon/icon container.png" alt="user" />
                 Войти
               </button>
-              <button class="btn btn-outline">
+              <button class="btn btn-outline" id="cart-button">
                 <img src="./images/icon/shopping-cart.png" alt="cart" />
                 Корзина
               </button>
@@ -68,7 +66,7 @@
                 placeholder="Поиск блюд и ресторанов"
               />
             </div>
-            <div class="products-wrapper">
+            <div class="products-wrapper" id="rests-container">
               <a href="./goods.html" class="products-card">
                 <div class="products-card__image">
                   <img src="./images/rests/image1.jpg" alt="rests1" />
@@ -262,7 +260,7 @@
             <div class="cart-modal__footer_price">1250 ₽</div>
             <div class="cart-modal__footer_controls">
               <button class="btn btn-primary">Оформить заказ</button>
-              <button class="btn btn-outline">Отмена</button>
+              <button class="btn btn-outline cancel">Отмена</button>
             </div>
           </div>
         </div>

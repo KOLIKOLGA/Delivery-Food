@@ -120,7 +120,7 @@ main {
 
 }
 .banner-item {
-  background-image: url(./images/banner/banner-top.png);
+  background-image: url(../images/banner/banner-top.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;
